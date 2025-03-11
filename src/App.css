@@ -137,3 +137,13 @@
   right: 2%;
   background: rgba(255, 255, 255, 0.1);
 }
+
+#nav-bg {
+  position: fixed;
+  height: 5em;
+  width: 100%;
+  background-color: #172b4d;
+  top: 0;
+  z-index: 1;
+  transition: ease-in-out opacity 400ms;
+}
