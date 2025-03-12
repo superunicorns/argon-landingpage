@@ -1,3 +1,4 @@
+import { IoMdMenu } from "react-icons/io";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
@@ -12,7 +13,10 @@ const Navbar = () => {
     <nav  className="w-full px-4 py-4 h-[70px] fixed z-70 flex items-center">
       <div  className="w-full max-w-5xl mx-auto flex justify-between items-center">
       <img src="/assets/creativetim-white-slim.png" width={180} height="auto" alt="creative tim logo" />  
-      <div className="flex items-center gap-4">
+      <div className="lg:hidden block">
+        <IoMdMenu size={25} color="#fff" />
+      </div>
+      <div className="hidden lg:flex items-center gap-4">
         <FaFacebookSquare size={25} color="#fff" />
         <FaSquareTwitter size={25} color="#fff" />
         <FaGithub size={25} color="#fff" />
@@ -20,7 +24,7 @@ const Navbar = () => {
           Try Demo
         </button>
       </div>
-      <div className="flex items-center gap-6">
+      <div className="hidden lg:flex items-center gap-6">
         <button type="button" className="py-3 px-5 text-md font-bold text-white uppercase">
           Documentation
         </button>
