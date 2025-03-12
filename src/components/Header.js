@@ -19,30 +19,30 @@ const Header = ({ headerRef }) => {
         <span></span>
         <span></span>
       </div>
-      <div className="max-w-5xl px-4 py-6 mx-auto flex w-full h-full flex items-center justify-between">
+      <div className="max-w-5xl mt-10 px-4 py-6 mx-auto flex w-full h-full flex items-center justify-between">
         <div className="flex flex-col flex-1">
           <div className="flex w-full flex-col justify-center items-start">
-          <img src="/assets/white.png" className="mb-2" width={200} height="auto" alt="argon logo"  />
+          <img src="/assets/white.png" className="mb-4" width={200} height="auto" alt="argon logo"  />
           <div className="flex justify-center items-center h-[110px] w-full bg-black py-1 px-2 rounded-sm">
-            <Link to="/" id="bg-clip" className="text-7xl text-center text-white font-black inline-block text-gradient"><span>React Native</span></Link> 
+            <Link to="/" id="bg-clip" className="text-5xl md:text-7xl text-center text-white font-black inline-block text-gradient"><span>React Native</span></Link> 
           </div>  
           <div className="mt-10">
-            <p className="text-3xl text-white">
+            <p className="text-xl md:text-3xl text-white">
               Start your development with a beautiful open source Design System for React Native.
             </p>
           </div>
           </div>
-          <div className="flex gap-4 mt-20">
-            <button type="button" className="flex py-1 px-4 bg-[#4267b2] gap-2 items-center text-white font-semibold rounded-sm bg-cyan-500 shadow-lg shadow-[#555abf]/50">
+          <div className="flex flex-col md:flex-row gap-4 mt-20">
+            <button type="button" className="mx-auto md:mx-0 flex py-1 px-4 bg-[#4267b2] gap-2 items-center text-white text-sm font-bold rounded-sm bg-cyan-500 shadow-lg shadow-[#555abf]/50">
             <BiSolidLike size={25} color="#fff" />
               Me gusta
             </button>
-            <button type="button" className="flex py-1 px-4 bg-black gap-2 items-center text-white font-semibold rounded-full shadow-lg shadow-[#555abf]/50">
+            <button type="button" className="mx-auto md:mx-0 flex py-1 px-4 bg-black gap-2 items-center text-white text-sm font-semibold rounded-full shadow-lg shadow-[#555abf]/50">
             <RiChatFollowUpFill size={25} color="#fff" />
               Follow
             </button>
-            <button type="button" className="flex bg-gray-200 inset-shadow-sm inset-shadow-black/50 gap-2 items-center text-black font-semibold rounded-sm shadow-lg shadow-[#555abf]/50">
-            <span className="flex py-1 px-4 gap-2 h-full w-full overflow-hidden">
+            <button type="button" className="mx-auto md:mx-0 flex bg-gray-200 inset-shadow-sm inset-shadow-black/50 gap-2 items-center text-black font-semibold rounded-sm shadow-lg shadow-[#555abf]/50">
+            <span className="flex items-center py-1 px-4 gap-2 h-full w-full text-sm">
               <FaRegStar size={25} color="#000" />
               Star
             <span class="h-full bg-gray-400 w-[2px] mx-1" />
@@ -51,7 +51,7 @@ const Header = ({ headerRef }) => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center flex-1">
+        <div className="hidden lg:flex justify-center items-center flex-1">
           <div className="flex justify-center items-center ml-20 relative w-full h-[500px]">
             <img src="./assets/mobile-1.png" width="auto" height={500} className="absolute right-0 translate-x-[30%]" alt="phone first"  />
             <img src="./assets/mobile-2.png" width="auto" height={500} className="absolute z-30 right-0 -translate-x-[40%]" alt="phone second" />
