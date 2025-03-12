@@ -51,7 +51,12 @@ const Header = ({ headerRef }) => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center flex-1 bg-blue-300">fren</div>
+        <div className="flex justify-center items-center flex-1">
+          <div className="flex justify-center items-center ml-20 relative w-full h-[500px]">
+            <img src="./assets/mobile-1.png" width="auto" height={600} className="absolute right-0 translate-x-[20%]" alt="phone first"  />
+            <img src="./assets/mobile-2.png" width="auto" height={600} className="absolute z-30 right-0 -translate-x-[15%]" alt="phone second" />
+          </div>
+        </div>
       </div>
     </section>
    </header>
