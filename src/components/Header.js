@@ -24,7 +24,7 @@ const Header = ({ headerRef }) => {
           <div className="flex w-full flex-col justify-center items-start">
           <img src="/assets/white.png" className="mb-4" width={200} height="auto" alt="argon logo"  />
           <div className="flex justify-center items-center h-[110px] w-full bg-black py-1 px-2 rounded-sm">
-            <Link to="/" id="bg-clip" className="text-5xl md:text-7xl text-center text-white font-black inline-block text-gradient"><span>React Native</span></Link> 
+            <Link to="/" id="bg-clip" className="text-4xl sm:text-5xl md:text-7xl text-center text-white font-black inline-block text-gradient"><span>React Native</span></Link> 
           </div>  
           <div className="mt-10">
             <p className="text-xl md:text-3xl text-white">
@@ -32,7 +32,7 @@ const Header = ({ headerRef }) => {
             </p>
           </div>
           </div>
-          <div className="flex flex-col md:flex-row gap-4 mt-20">
+          <div className="flex flex-col md:flex-row gap-4 mt-10 md:mt-20">
             <button type="button" className="mx-auto md:mx-0 flex py-1 px-4 bg-[#4267b2] gap-2 items-center text-white text-sm font-bold rounded-sm bg-cyan-500 shadow-lg shadow-[#555abf]/50">
             <BiSolidLike size={25} color="#fff" />
               Me gusta
