@@ -35,7 +35,7 @@ function Home() {
   }, []);
 
   return (
-   <div className="relative flex flex-col">
+   <div className="relative flex flex-col w-screen">
     <Navbar />
     <Navbackground opacity={opacity} />
     <Header headerRef={headerRef} />
