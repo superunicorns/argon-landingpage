@@ -3,6 +3,7 @@ import Navbar, { Navbackground } from "./Navbar";
 import "../App.css";
 import Header from "./Header"; 
 import Features from "./Features";
+import UnconventionalCards from "./UnconventionalCards";
 
 const headerRef = createRef();
 
@@ -39,6 +40,7 @@ function Home() {
     <Navbackground opacity={opacity} />
     <Header headerRef={headerRef} />
     <Features />
+    <UnconventionalCards />
    </div>
   )
 }
