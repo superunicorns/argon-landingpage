@@ -2,7 +2,7 @@ import "../App.css";
 
 const UnconventionalCards = () => {
   return (
-    <div className="px-4 lg:px-0">
+    <div className="sm:px-4 px-0 lg:px-0 mx-auto">
       <section className="w-full h-auto py-20 px-4 lg:px-10 background-gradient grid grid-rows-1 grid-cols-1 lg:grid-cols-2">
         <div className="w-full relative hidden lg:flex">
           <img src="/assets/cards-background.png" alt="Unconventional Cards" className="absolute hidden lg:flex -top-[150px] -left-[150px]" />
