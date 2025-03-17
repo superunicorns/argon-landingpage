@@ -2,6 +2,7 @@ import { useState, createRef, useEffect } from "react";
 import Navbar, { Navbackground } from "./Navbar";
 import "../App.css";
 import Header from "./Header"; 
+import Features from "./Features";
 
 const headerRef = createRef();
 
@@ -37,6 +38,7 @@ function Home() {
     <Navbar />
     <Navbackground opacity={opacity} />
     <Header headerRef={headerRef} />
+    <Features />
    </div>
   )
 }

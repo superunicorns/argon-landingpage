@@ -6,7 +6,7 @@ import "../App.css";
 
 const Header = ({ headerRef }) => {
   return (
-    <header ref={headerRef} className="relative w-full h-screen -mt-[40px]">
+    <header ref={headerRef} className="relative w-screen h-screen -mt-[40px]">
     <section className="section h-full w-full py-4 lg:py-6 section-shaped pb-[100px]">
       <div className="shape section-shaped shape-style-1 shape-default">
         <span id="span-opacity-1"></span>
