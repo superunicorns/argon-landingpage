@@ -10,7 +10,7 @@ export const Navbackground = ({opacity}) => {
 
 const Navbar = () => {
   return (
-    <nav  className="w-full justify-center px-4 py-4 h-[70px] fixed z-70 flex items-center">
+    <nav  className="w-full justify-center px-4 py-4 h-[70px] fixed z-90 flex items-center">
       <div  className="w-full max-w-5xl mx-auto flex justify-between items-center">
       <img src="/assets/creativetim-white-slim.png" width={180} height="auto" alt="creative tim logo" />  
       <div className="lg:hidden flex">
