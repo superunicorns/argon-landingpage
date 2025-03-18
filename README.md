@@ -2,12 +2,16 @@
 
 This is a Creative Tim collaboration, inspired on the Argon React Native template.
 
+![Argon Landing Page](./app_screen.png)
+
 ### Built with
 - react
 - tailwind css
 - html
 
-![Argon Landing Page](./app_screen.png)
+### Live demo
+
+[demo](https://argon-landingpage.vercel.app/)
 
 ### Getting Started with Create React App
 
