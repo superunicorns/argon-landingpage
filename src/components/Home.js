@@ -4,6 +4,7 @@ import "../App.css";
 import Header from "./Header"; 
 import Features from "./Features";
 import UnconventionalCards from "./UnconventionalCards";
+import MobileScreens from "./MobileScreens";
 
 const headerRef = createRef();
 
@@ -41,6 +42,7 @@ function Home() {
     <Header headerRef={headerRef} />
     <Features />
     <UnconventionalCards />
+    <MobileScreens />
    </div>
   )
 }
