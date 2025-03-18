@@ -5,6 +5,7 @@ import Header from "./Header";
 import Features from "./Features";
 import UnconventionalCards from "./UnconventionalCards";
 import MobileScreens from "./MobileScreens";
+import Footer from "./Footer";
 
 const headerRef = createRef();
 
@@ -43,6 +44,7 @@ function Home() {
     <Features />
     <UnconventionalCards />
     <MobileScreens />
+    <Footer />
    </div>
   )
 }
